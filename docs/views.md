@@ -1,6 +1,6 @@
 # Views
 
-`Prologue` doesn't provide any templates engines. But we recommend [karax](https://github.com/pragmagic/karax) to you. `karax` is a powerful template engines based on DSL. It is suitable for server side rendering.
+`Prologue` doesn't provide any templates engines. But we recommend [karax](https://github.com/pragmagic/karax) to you. `karax` is a powerful template engine based on DSL. It is suitable for server side rendering.
 
 You should use `nimble install karax` or `logue extension karax` to install it.
 
