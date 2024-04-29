@@ -111,7 +111,7 @@ app.use(staticFileMiddleware("/public"))
 
 ## Redirect
 
-You can easily redirect to other URL using `redirect` function. The default HTTP code for `redirct` function is Http301. You could use Http302 to move temporarily.
+You can easily redirect to other URL using `redirect` function. The default HTTP code for `redirect` function is Http301. You could use Http302 to move temporarily.
 
 The program below redirects to `localhost:8080/home`.
 
