@@ -5,7 +5,7 @@ This is an example of how you can deploy a prologue web-application that was com
 
 We will look at 2 base images as starting points:
 
-2. [bitnami/mindeb](https://hub.docker.com/r/bitnami/minideb)
+2. [bitnami/minideb](https://hub.docker.com/r/bitnami/minideb)
 3. [alpine](https://hub.docker.com/_/alpine)
 
 The process is similar for both, but does contain differences, particularly in the dockerfile and commands needed to compile your project.
@@ -24,8 +24,8 @@ Alpine uses `musl`, which is much more minimalistic.
 
 Because `musl` and `glibc` are different, compiling your application to link with them also differs.
 
-### On bitnami/mindeb
-bitnami/minideb is basically a debian image, reduced to the minimum.
+### On bitnami/minideb
+bitnami/minideb is basically a Debian image, reduced to the minimum.
 
 Since it is based on debian, it uses `gnu c library` (glibc), which is the main advantage of this image. 
 
