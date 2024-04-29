@@ -14,7 +14,7 @@ let
   checkInt = isInt(msg)
 
 doAssert checkInt("12") == (true, "")
-doAssert checkInt("912.6) == (false, msg)
+doAssert checkInt("912.6") == (false, msg)
 ```
 
 ## Multiple Records
@@ -34,9 +34,9 @@ var form = newFormValidation({
 let
   chk1 = form.validate({"required": "on", "accepted": "true",
       "requiredInt": "12", "minValue": "15"}.newStringTable)
-  chk2 = form.validate({"requird": "on", "time": "555",
+  chk2 = form.validate({"required": "on", "time": "555",
       "minValue": "10"}.newStringTable)
-  chk3 = form.validate({"requird": "on", "time": "555",
+  chk3 = form.validate({"required": "on", "time": "555",
       "minValue": "10"}.newStringTable, allMsgs = false)
   chk4 = form.validate({"required": "on", "accepted": "true",
   "requiredInt": "12.5", "minValue": "13"}.newStringTable, allMsgs = false)
