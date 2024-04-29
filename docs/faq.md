@@ -6,7 +6,7 @@
 
 ## Benchmarking and debug
 
-If you want to benchmark `prologue` or release you programs, make sure set `settings.debug` = false.
+If you want to benchmark `prologue` or release your programs, make sure to set `settings.debug` = false.
 
 ```nim
 let
