@@ -1,6 +1,6 @@
 # Package
 
-version       = "0.6.4"
+version       = "0.6.6"
 author        = "ringabout"
 description   = "Prologue is an elegant and high performance web framework"
 license       = "Apache-2.0"
