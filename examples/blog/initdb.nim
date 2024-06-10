@@ -1,5 +1,5 @@
-import std/[db_sqlite, os, strutils, logging]
-
+import std/[os, strutils, logging]
+import db_connector/db_sqlite
 import ./consts
 
 
