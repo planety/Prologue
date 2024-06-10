@@ -1,4 +1,4 @@
-import std/[strformat]
+import std/strformat
 import db_connector/db_sqlite
 
 import prologue
