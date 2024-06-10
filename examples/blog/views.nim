@@ -1,4 +1,5 @@
-import std/[db_sqlite, strformat]
+import std/[strformat]
+import db_connector/db_sqlite
 
 import prologue
 import prologue/security/hasher
