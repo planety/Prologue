@@ -70,7 +70,7 @@ jobs:
             ${{ runner.os }}-nimble-
 
       - name: Setup nim
-        uses: jiro4989/setup-nim-action@v1
+        uses: jiro4989/setup-nim-action@v2
         with:
           nim-version: stable
 
