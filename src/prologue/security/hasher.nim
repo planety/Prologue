@@ -16,7 +16,7 @@
 
 import std/[strformat, strutils]
 
-import pkg/nimcrypto/pbkdf2
+import pkg/nimcrypto/[pbkdf2, sha, sha2]
 
 from ../core/types import SecretKey
 from ../core/encode import base64Encode
