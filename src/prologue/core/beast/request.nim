@@ -112,6 +112,7 @@ func secure*(request: Request): bool {.inline.} =
 
 func hostName*(request: Request): string {.inline.} =
   ## Gets the hostname of the request.
+  result = request.nativeRequest.ip
   if request.headers.hasKey("REMOTE_ADDR"):
     result = request.headers["REMOTE_ADDR", 0]
   if request.headers.hasKey("x-forwarded-for"):
